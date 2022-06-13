@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <router-view/>
+   <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    </div>-->
   </div>
 </template>
 
@@ -15,6 +15,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  /*background-image: url('./assets/Bienvenido.png');
+  background-repeat: no-repeat;*/
 }
 
 #nav {
@@ -29,4 +31,5 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
 </style>
